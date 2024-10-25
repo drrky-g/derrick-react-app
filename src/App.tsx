@@ -16,7 +16,7 @@ import {
 export default function App(){
 const [opened, { toggle }] = useDisclosure();
 
-  return <MantineProvider defaultColorScheme='dark'>{
+  return <MantineProvider defaultColorScheme='auto'>{
       <AppShell
         header={{ height: 60 }}
         navbar={{width: 300, breakpoint:'sm', collapsed: {mobile: !opened }}}
@@ -26,6 +26,7 @@ const [opened, { toggle }] = useDisclosure();
           <Group h="100%" px="md">
             <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm"/>
             This is my Header text...
+
           </Group>
         </AppShell.Header>
         <AppShell.Navbar p="md">
