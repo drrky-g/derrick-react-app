@@ -48,3 +48,8 @@ export default tseslint.config({
   },
 })
 ```
+### Links to docs for packages used in this project:
+- [Mantine UI Kit](https://mantine.dev/)
+- [Tabler Icons](https://tablericons.com/)
+- [React](https://react.dev/)
+- [Vite](https://vite.dev/)
