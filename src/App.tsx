@@ -1,10 +1,9 @@
 import '@mantine/core/styles.css';
-
+import { useDisclosure } from '@mantine/hooks'
 import { 
   IconHome2
  } from '@tabler/icons-react'
 
-import { useDisclosure } from '@mantine/hooks'
 import { 
   MantineProvider,
   AppShell,
@@ -44,7 +43,6 @@ const [opened, { toggle }] = useDisclosure();
             Main app stuff goes here...
           </Container>
         </AppShell.Main>
-
       </AppShell>
     }</MantineProvider>
 }
