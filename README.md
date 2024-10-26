@@ -53,3 +53,5 @@ export default tseslint.config({
 - [Tabler Icons](https://tablericons.com/)
 - [React](https://react.dev/)
 - [Vite](https://vite.dev/)
+- [Axios](https://axios-http.com/docs/intro)
+- [React Router](https://reactrouter.com/en/main)
