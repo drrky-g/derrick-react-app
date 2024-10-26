@@ -54,3 +54,4 @@ export default tseslint.config({
 - [React](https://react.dev/)
 - [Vite](https://vite.dev/)
 - [Axios](https://axios-http.com/docs/intro)
+- [React Router](https://reactrouter.com/en/main)
